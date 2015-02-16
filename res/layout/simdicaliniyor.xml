@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait" >
+ 
+    <LinearLayout
+        android:id="@+id/ust"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#b3c833" >
+
+        <LinearLayout
+            android:id="@+id/ust_sarki_bilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.07"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvSanatci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rihanna"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loud"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ucnokta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ucnokta" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ust"
+        android:scaleType="centerCrop"
+        android:src="@drawable/simdicaliniyor_logo" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/caliniyor_yarisaydam"
+        android:layout_marginBottom="0dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvSarki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Only Girl (In The World)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <MediaController
+                android:id="@+id/mediaController1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </MediaController>
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/oncekisarki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/onceki" />
+
+                <ImageView
+                    android:id="@+id/gerisar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/geri_sar" />
+
+                <ImageView
+                    android:id="@+id/durdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/durdur" />
+
+                <ImageView
+                    android:id="@+id/ilerisar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ileri_sar" />
+
+                <ImageView
+                    android:id="@+id/sonrakisarki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sonraki" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
