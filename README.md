@@ -10,6 +10,6 @@ Sürüm 2.0'e kadar olan tüm geliştirme ekibimiz tarafından ortak olarak yap�
 <strong>Proje geliştirilmesine katkıda bulunanlar:</strong>
 
 Oğuz Kırat (<a href="http://github.com/okrt">@okrt</a> - http://oguzkirat.com) <br>
-Ferhat Yeşiltarla<br> - <i>Şimdi çalınıyor ekranı tasarımı büyük ölçüde kendisi tarafından yapılmıştır</i>
+Ferhat Yeşiltarla<br> - <i>Şimdi çalınıyor ekranı tasarımı büyük ölçüde kendisi tarafından yapılmıştır</i><br>
 Canberk Güzeler<br>
 Mert Levent
